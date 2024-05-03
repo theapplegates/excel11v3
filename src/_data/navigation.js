@@ -1,5 +1,9 @@
-module.exports = {
+export default {
   top: [
+    {
+      text: 'Search',
+      url: '/search/'
+    },
     {
       text: 'About',
       url: '/about/'
@@ -15,13 +19,13 @@ module.exports = {
     {
       text: 'Blog',
       url: '/blog/'
-    },
-    {
-      text: 'Style guide',
-      url: '/styleguide/'
     }
   ],
   bottom: [
+    {
+      text: 'Style guide',
+      url: '/styleguide/'
+    },
     {
       text: 'Imprint',
       url: '/imprint/'
